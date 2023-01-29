@@ -1,0 +1,78 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{7}{chapter.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Elementos da mecânica clássica}}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sistemas hamiltonianos e transformações canônicas}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Funções Geratrizes de Centros}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Ação para sistemas arbitrários}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Expressão Aproximada}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Expressão Exata}{17}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Formas Normais}{21}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Cáusticas e outras funções geratrizes}{23}{section.2.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{A representação de Weyl-Wigner}}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Operadores de Translação e Reflexão}{25}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Representação de Weyl-Wigner da composição de operadores}{30}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Operadores Metapléticos}{33}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Integral de Caminhos e a aproximação semiclássica}{34}{section.3.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{O ensemble canônico quântico no espaço de fase}}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ação euclidiana aproximada}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}A aproximação semiclássica completa}{42}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Uma mudança de coordenadas}{42}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Espaço de fase duplo e sua complexificação}{42}{subsection.4.2.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Aproximação semiclássica para as formas normais}}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Análise das aproximações}{47}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Aproximação Metapletica Amortecida}{47}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Aproximação Semiclássica Completa}{47}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}O sistema de Kerr}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Resultados numéricos}{50}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Valor esperado da energia}{50}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Calor Específico}{52}{subsection.5.3.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeUppercase []{Aproximação semiclássica para hamiltonianas padrão}}{54}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Energia de dissociação}{54}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Aproximações semiclássicas para hamiltonianas na forma padrão}{58}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Aproximação Metaplética Amortecida}{59}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Espaço de Fase Duplo}{60}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}O sistema de Morse}{61}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Limite Clássico}{63}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Potencial Duplo}{64}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Cáusticas}{65}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Resultados Numéricos}{67}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Valor esperado da energia}{67}{subsection.6.5.1}%
+\contentsline {subsection}{\numberline {6.5.2}Calor Específico}{68}{subsection.6.5.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeUppercase []{Conclusão}}{70}{chapter.7}%
+\vspace {\cftbeforechapterskip }
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Polígonos no espaço de fase}}{71}{appendix.A}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeUppercase []{Cálculo do termo de área}}{75}{appendix.B}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}\MakeUppercase []{Símbolo de Wigner da composição de operadores}}{77}{appendix.C}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {D}\MakeUppercase []{Símbolo de Wigner para formas normais}}{78}{appendix.D}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {E}\MakeUppercase []{Detalhes computacionais}}{79}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Funções de Wigner}{79}{section.E.1}%
+\contentsline {section}{\numberline {E.2}Integrais Simples}{80}{section.E.2}%
+\contentsline {section}{\numberline {E.3}Aproximação Semiclássica Completa}{80}{section.E.3}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{83}{section*.41}%

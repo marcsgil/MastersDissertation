@@ -1,0 +1,730 @@
+---
+title: "Aproximações semiclássicas para o ensemble canônico"
+subtitle: "Dissertação de Mestrado"
+author: "Marcos Gil"
+format:
+  revealjs:
+    theme: serif
+    incremental: true
+    slide-number: true
+---
+
+# Resumo
+
+- Obteremos uma aproximação para o ensemble canônico quântico
+- Baseado em trajetórias clássicas no espaço de fase (Representação de Weyl-Wigner)
+- Testaremos a aproximação em dois sistemas de um grau de liberdade: Kerr e Morse
+
+# Elementos da Mecânica Clássica
+
+## Sistemas hamiltonianos 
+
+::: {.hidden}
+$$
+ \newcommand{\ev}[1]{\left< #1 \right>}
+ \newcommand{\Tr}{\text{Tr }}
+ \newcommand{\eval}[1]{\left . #1 \right|}
+ \newcommand{\order}[1]{\mathcal{O}\left( #1 \right)}
+ \newcommand{\ket}[1]{\left| #1 \right>}
+ \newcommand{\mel}[3]{\left< #1 \right| #2 \left| #3 \right>}
+$$
+:::
+
+$$
+\begin{cases}
+      \dot{p}_j = -\dfrac{\partial H}{\partial q_j} \\ \\
+      \dot{q}_j = \dfrac{\partial H}{\partial p_j}
+\end{cases}, \ \ \ j=1,\ldots,d
+$$
+
+. . . 
+
+Notação compacta:
+
+$$
+\dot{\mathbf{x}} = \mathbf{J} \frac{\partial H}{\partial \mathbf{x}}, \ \ \ \mathbf{J} = \left( 
+    \begin{array}{c|c} 
+        \boldsymbol{0} & -\mathbf{I} \\ 
+        \hline 
+        \mathbf{I} & \boldsymbol{0} 
+    \end{array} 
+    \right)
+$$
+
+---
+
+Fluxo hamiltoniano: $\boldsymbol{\Phi}(\mathbf{x},t)$
+
+$$
+\partial_t \boldsymbol{\Phi}(\mathbf{x},t) =  \eval{\mathbf{J} \frac{\partial H}{\partial \mathbf{x}}}_{(\boldsymbol{\Phi}(\mathbf{x},t),t)} \ ; \ \ \ \boldsymbol{\Phi}(\mathbf{x},0) = \mathbf{x}
+$$
+
+. . .
+
+{{< video harmonic_oscilator.mp4 width="500" height="500" >}}
+
+---
+
+Produto "Wedge":
+$$
+\boldsymbol{\xi}\wedge\boldsymbol{\eta} = \mathbf{J} \boldsymbol{\xi}\cdot \boldsymbol{\eta}
+$$
+
+![](Texto\Imagens\paralelogramo.png){fig-align="center"}
+
+. . .
+
+<br>
+
+Matrizes simpléticas: 
+$$\mathbf{M}\boldsymbol{\xi}\wedge\mathbf{M}\boldsymbol{\eta} = \boldsymbol{\xi}\wedge\boldsymbol{\eta} \Leftrightarrow \mathbf{M}^T \mathbf{J} \mathbf{M} = \mathbf{J}
+$$
+
+---
+
+Transformações canônicas: Seja $\mathbf{y}(\mathbf{x},t) = F(\boldsymbol{\Phi}(\mathbf{x},t))$. A transformação $\mathbf{x} \mapsto \mathbf{y}$ é canônica se $\mathbf{y}$ obedece equações de Hamilton.
+
+$$
+\dot{\mathbf{y}} = \mathbf{J} \frac{\partial K}{\partial \mathbf{y}}
+$$
+
+. . .
+
+**Lema**: Se a matriz jacobiana $\partial \mathbf{y}/\partial \mathbf{x}$ é simplética, então a transformação $\mathbf{x} \mapsto \mathbf{y}$ é canônica.
+
+. . . 
+
+<br>
+
+**Proposição**: O fluxo hamiltoniano $\boldsymbol{\Phi}$ é uma transformação canônica.
+
+## Exemplos
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Reflexões:
+$$
+R_{\mathbf{x}}\left( \mathbf{x}_- \right) = 2 \mathbf{x} - \mathbf{x}_-
+$$
+![](Texto\Imagens\reflexão.png){width=70%}
+:::
+
+::: {.column width="50%"}
+Translações
+$$
+T_{\boldsymbol{\xi}}\left( \mathbf{x}_- \right) = \mathbf{x}_- + \boldsymbol{\xi}
+$$
+![](Texto\Imagens\translação.png){width=80%}
+:::
+
+::::
+
+---
+
+## Centros e coordas
+
+$$
+\begin{cases}
+    \boldsymbol{\xi} = \mathbf{x}_+ - \mathbf{x}_- \\
+    \mathbf{x} = \dfrac{\mathbf{x}_++\mathbf{x}_-}{2}
+\end{cases} \Leftrightarrow \mathbf{x}_\pm = \mathbf{x} \pm \frac{1}{2}\boldsymbol{\xi}
+$$
+
+. . .
+
+Podemos especificar uma transformação $\mathbf{x}_- \mapsto \mathbf{x}_+$ através de $\mathbf{x},\boldsymbol{\xi}$.
+
+. . . 
+
+Função geratriz de centro $S(\mathbf{x})$:
+
+$$
+\boldsymbol{\xi}(\mathbf{x}) = -\mathbf{J} \frac{\partial S}{\partial \mathbf{x}}
+$$
+
+. . .
+
+Construída dessa forma, a transformação $\mathbf{x}_- \mapsto \mathbf{x}_+$ é canônica.
+
+---
+
+Se a transformação em questão é o fluxo hamiltoniano, chamamos $S$ de ação.
+
+. . .
+
+$$
+\dot{\mathbf{x}} = \mathbf{J} \frac{\partial H}{\partial \mathbf{x}} \Rightarrow \mathbf{x}(t) - \mathbf{x}(0) = t\mathbf{J} \frac{\partial H}{\partial \mathbf{x}} + \order{t^2}
+$$
+
+<br>
+
+. . .
+
+$$
+\boldsymbol{\xi} = t\mathbf{J} \frac{\partial H}{\partial \mathbf{x}} + \order{t^3}
+$$
+
+<br>
+
+. . .
+
+$$
+S(\mathbf{x},t) = S_t(\mathbf{x}) = -tH(\mathbf{x}) + \order{t^3}
+$$
+
+
+
+## {visibility="hidden"}
+
+Hamiltonianas quadráticas: $H(\mathbf{x}) = \frac{1}{2} \mathbf{x} \cdot \boldsymbol{\mathcal{H}}_{\mathbf{0}} \mathbf{x}$
+
+. . .
+
+$$
+\mathbf{x}(t) = \mathbf{M}_t \mathbf{x}(0), \ \ \ \mathbf{M}_t = \exp(t \mathbf{J} \boldsymbol{\mathcal{H}}_{\mathbf{0}})
+$$
+
+. . .
+
+$$
+S(\mathbf{x},t) = -\frac{2}{\Omega}\tan \left(\frac{\Omega t}{2}\right) H(\mathbf{x}), \ \ \ \Omega^2 = \det \boldsymbol{\mathcal{H}}_\mathbf{0}
+$$
+
+. . .
+
+Reescrevendo em termos do gradiente $\mathbf{h}_\mathbf{x} = \mathbf{h}_{\mathbf{0}} + \boldsymbol{\mathcal{H}}_{\mathbf{0}} \mathbf{x}$ e da hessiana $\boldsymbol{\mathcal{H}}_\mathbf{x} = \boldsymbol{\mathcal{H}}_{\mathbf{0}}$:
+
+$$
+S(\mathbf{x},t) = -t H(\mathbf{x}) \\ + \left[\frac{t}{2}-\frac{1}{\Omega_\mathbf{x}}\tan \left(\frac{\Omega_\mathbf{x} t}{2}\right)\right] \boldsymbol{\mathcal{H}}_\mathbf{x}^{-1}\mathbf{h}_\mathbf{x} \cdot \mathbf{h}_\mathbf{x}
+$$
+
+---
+
+Fórmula geral: $S(\mathbf{x},t) = \Delta - \int H \left[\mathbf{x}(t)\right] dt$
+
+<br>
+
+
+![](Texto\Imagens\trajetóriav2.png){fig-align="center"}
+
+<br>
+
+. . .
+
+Princípio variacional de centros: de todas as curvas que compartilham o mesmo centro, a evolução temporal é um extremo da ação.
+
+## Cáusticas
+
+Para uma transformação $\mathbf{x}_- \mapsto \mathbf{x}_+$ gerada por $S$:
+
+$$
+\frac{\partial \mathbf{x}_+}{ \partial \mathbf{x}_-} = \left(\mathbf{I} - \frac{\mathbf{J}}{2} \frac{\partial^2 S}{\partial \mathbf{x}^2}\right) \left(\mathbf{I} + \frac{\mathbf{J}}{2} \frac{\partial^2 S}{\partial \mathbf{x}^2}\right)^{-1}
+$$
+
+. . . 
+
+$$
+\Leftrightarrow \frac{\mathbf{J}}{2} \frac{\partial^2 S}{\partial \mathbf{x}^2} = \left(\mathbf{I} - \frac{\partial \mathbf{x}_+}{\partial \mathbf{x}_-} \right) \left(\mathbf{I} + \frac{\partial \mathbf{x}_+}{\partial \mathbf{x}_-} \right)^{-1}
+$$
+
+. . . 
+
+Falha quando 
+
+$$
+\det \left(\mathbf{I} + \frac{\partial \mathbf{x}_+}{\partial \mathbf{x}_-} \right) = 0
+$$
+
+# Representação de Weyl-Wigner
+
+## Operador de translação
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Posição:
+
+$$
+\hat{T}_q = \exp \left( -i q \hat{p}/\hbar \right) \\
+\hat{T}_q \ket{Q} = \ket{Q+q}
+$$
+:::
+
+::: {.column width="50%"}
+
+Momento:
+
+$$
+\hat{T}_p = \exp \left( i p \hat{q}/\hbar \right) \\
+\hat{T}_p \ket{P} = \ket{P+p}
+$$
+:::
+
+:::
+
+. . .
+
+Ambos:
+
+$$
+\hat{T}_{\boldsymbol{\xi}} = \exp \left( \frac{i}{\hbar} \boldsymbol{\xi} \wedge \hat{\mathbf{x}} \right) = \exp \left[ \frac{i}{\hbar} \left(\xi_p \cdot \hat{q}-\xi_q \cdot \hat{p}\right) \right]
+$$
+
+## Operador reflexão
+
+$$
+\hat{R}_\mathbf{x} = \frac{1}{\left(4\pi \hbar \right)^d} \int d \boldsymbol{\xi} \exp \left( \frac{i}{\hbar} \mathbf{x} \wedge \boldsymbol{\xi} \right) \hat{T}_{\boldsymbol{\xi}}
+$$
+
+. . .
+
+Podemos representar um operador $\hat{A}$ como uma combinação linear de reflexões:
+$$
+\hat{A} = \frac{1}{\left(\pi \hbar\right)^d} \int d\mathbf{x} A(\mathbf{x}) \hat{R}_\mathbf{x} \Leftrightarrow A(\mathbf{x}) =  2^d \Tr \left( \hat{A} \hat{R}_\mathbf{x} \right)
+$$
+
+. . .
+
+$A(\mathbf{x}) \longrightarrow$ Símbolo de Wigner de $\hat{A}$.
+
+. . .
+
+Se $\hat{A}$ é hermitiano, então $A(\mathbf{x})$ é real.
+
+---
+
+Em termos da representação de posição:
+
+$$
+A(\mathbf{x}) = \int d \boldsymbol{\xi}_q \mel{\mathbf{q}+\frac{1}{2}\boldsymbol{\xi}_q}{\hat{A}}{\mathbf{q}-\frac{1}{2}\boldsymbol{\xi}_q}\exp \left( -\frac{i}{\hbar} \mathbf{p} \cdot \boldsymbol{\xi}_q \right)
+$$
+
+<br>
+
+. . . 
+
+Símbolo de Wigner de $f\left( \hat{q}\right)$ é $f(q)$!
+
+. . .
+
+<br>
+
+Resultado análogo para funções só do momento.
+
+. . .
+
+<br>
+
+"Tirar o chapéu" não é válido em geral.
+
+## Função de Wigner
+
+$$
+W\left(\mathbf{x}\right) = \frac{\rho\left(\mathbf{x}\right)}{(2\pi \hbar)^d}
+$$
+
+. . .
+
+Funciona como uma distribuição de probabilidades no espaço de fase:
+
+$$
+\ev{\hat{A}} = \Tr \left(\hat{\rho} \hat{A}\right) =  \int d\mathbf{x} W\left(\mathbf{x}\right) A\left(\mathbf{x}\right)
+$$
+
+## Propagador e integral de caminhos
+
+$$
+U_t\left(\mathbf{x} \right) = \lim_{N\to \infty} \int\frac{d\mathbf{x}_1 \cdots d \mathbf{x}_N}{\left( \pi \hbar \right)^{Nd}}  \\ \times \exp \left\{ \frac{i}{\hbar}\left[ \Delta_{N+1} \left( \mathbf{x},\mathbf{x}_1,\ldots,\mathbf{x}_N \right)-\frac{t}{N}\sum_{j=1}^N H\left(\mathbf{x}_j\right)\right] \right\}
+$$
+
+<br>
+
+. . .
+
+Fase do integrando corresponde à ação avaliada em uma trajetória arbitrária.
+
+---
+
+Ação é estacionária sob a trajetória clássica!
+
+<br>
+
+. . .
+
+Avaliando o a integral através da aproximação de fase estacionária:
+
+$$
+U_t\left( \mathbf{x} \right)_{SC} = \frac{2^d}{\left|\det \left( \mathbf{I} + \mathbf{M}_t\right) \right|^{1/2}} \exp \left[ \frac{i}{\hbar} S_t \left(\mathbf{x} \right) \right]
+$$
+
+$$
+\mathbf{M}_t = \dfrac{\partial \mathbf{x}_+}{\partial \mathbf{x}_-} = \eval{\frac{\partial \boldsymbol{\Phi}_t}{\partial \mathbf{x}}}_{\mathbf{x}_-}
+$$
+
+<br>
+
+. . .
+
+A aproximação diverge nas cáusticas!
+
+# O ensemble canônico no espaço de fase
+
+## Mecânica estatística clássica
+
+
+- Observáveis: $A_c(\mathbf{x})$
+- Distribuição de probabilidades: $P(\mathbf{x})$
+- Médias:
+$$
+\ev{A_c} = \int d \mathbf{x} \ P \left( \mathbf{x} \right) A_c\left( \mathbf{x} \right)
+$$
+
+- Ensemble Canônico Clássico:
+$$
+P_\beta \left( \mathbf{x} \right) = \frac{\exp \left[ - \beta H_c \left( \mathbf{x} \right) \right]}{\int d \mathbf{x} \exp \left[ - \beta H_c \left( \mathbf{x} \right) \right]}, \ \ \ \beta = \frac{1}{kT}
+$$
+
+## Mecânica Quântica
+
+- Observáveis: $\hat{A}$
+- Operador densidade: $\hat{\rho}$
+- Médias:
+$$
+\ev{\hat{A}} = \Tr \hat{\rho} \hat{A}
+$$
+- Ensemble Canônico Quântico
+$$
+\hat{\rho}_\beta = \frac{e^{ -\beta \hat{H} }}{\Tr e^{ -\beta \hat{H} }} 
+$$
+
+## Mecânica Quântica (Weyl-Wigner)
+$$
+\hat{A} \longmapsto A(\mathbf{x})
+$$
+
+. . .
+
+$$
+\hat{\rho}_\beta \longmapsto W_\beta \left(\mathbf{x}\right) = \frac{e^{-\beta \hat{H}} \left( \mathbf{x} \right)}{\int d\mathbf{x} e^{-\beta \hat{H}} \left( \mathbf{x} \right)}
+$$
+
+. . .
+
+$$
+\ev{\hat{A}}_\beta = \int d \mathbf{x} W_\beta(\mathbf{x}) A(\mathbf{x}) = \frac{\int d \mathbf{x} e^{-\beta \hat{H}} \left( \mathbf{x} \right) A(\mathbf{x})}{\int d\mathbf{x} e^{-\beta \hat{H}} \left( \mathbf{x} \right)}
+$$
+
+## Rotação de Wick
+Propagador: $\hat{U}_t = \exp\left( - \frac{it}{\hbar} \hat{H} \right)$
+
+. . .
+
+Definindo o tempo térmico $\theta = \beta \hbar$ e avaliando em $t=-i\theta$: 
+$$
+\hat{U}_{-i\theta} = \exp \left( -\beta \hat{H} \right)
+$$
+
+. . .
+
+$$
+e^{-\beta \hat{H}}\left( \mathbf{x} \right)_{SC} = \frac{2^d}{\left|\det \left[ \mathbf{I} + \mathbf{M}_{-i\theta}\right] \right|^{1/2} } \exp \left[ \frac{1}{\hbar} S_\theta^{E} \left(\mathbf{x} \right) \right]
+$$
+Ação euclidiana: $S^{E}_{\theta} = i S_{-i\theta}$
+
+---
+
+A aproximação semiclássica se baseia no cálculo de integrais da forma
+
+$$
+\Tr \hat{U}_t \hat{A} \approx \frac{1}{(2\pi \hbar)^d}\int \frac{2^dd \mathbf{x}}{\left|\det \left[ \mathbf{I} + \mathbf{M}_{t}\right] \right|^{1/2} } \\ \times \exp \left[ \frac{i}{\hbar}  \left(\Delta - Et \right) \right] A(\mathbf{x})
+$$
+
+. . .
+
+Trajetórias ficam implicitamente definidas pelo centro $\mathbf{x}$
+
+. . .
+
+Integrando diverge nas cáusticas
+
+. . .
+
+Como lidar?
+
+---
+
+Primeiro fazemos a mudança de coordenadas $\mathbf{x} \mapsto \mathbf{X}$
+
+<br>
+
+![](Texto\Imagens\half_trajectories.png){fig-align="center" }
+
+---
+
+O jacobiano satisfaz
+
+$$
+\left| \det\frac{ \partial \mathbf{x}}{\partial \mathbf{X}} \right| = \frac{1}{2^{2d}} \left|\det \left[ \mathbf{I} + \mathbf{M}_{t}\right] \right|
+$$
+
+. . .
+
+Elimina a divergência do integrando nas cáusticas!
+
+$$
+\Tr \hat{U}_t \hat{A} \approx \frac{1}{(2\pi \hbar)^d}\int d \mathbf{X}  \left|\det \frac{\partial \mathbf{x}}{\partial \mathbf{X}} \right|^{1/2} \\ \times \exp \left[ \frac{i}{\hbar} S_t \left(\mathbf{x} \right) \right] A(\mathbf{x} )
+$$
+
+## Forma normal de Birkhoff
+
+$$
+H(p,q) = F \left( \frac{p^2+q^2}{2} \right)
+$$
+
+Órbitas são círculos.
+
+![](Texto\Imagens\area_birkhoff.png){fig-align="center"}
+
+---
+
+Ação:
+$$
+S\left[ \mathbf{x}\left( \mathbf{X},t\right),t \right] = \left[ \omega t - \sin \left(\omega t\right) \right] J - t F\left( J \right), \\ \ \ \ J = \frac{\mathbf{X}^2}{2}, \ \omega = \omega(J) = F'(J).
+$$
+
+<br>
+
+. . .
+
+Ação Euclidiana:
+$$
+S_\theta^E\left[ \mathbf{x}\left( \mathbf{X}\right) \right] = \left[ \omega \theta - \sinh \left(\omega \theta\right) \right] J - \theta F\left( J \right)
+$$
+
+
+## O sistema de Kerr
+
+$$
+\hat{H} = \hbar \omega_0 \left[ \left( \frac{\hat{p}^2+\hat{q}^2}{2\hbar} \right) + \chi \left( \frac{\hat{p}^2+\hat{q}^2}{2\hbar} \right)^2 \right]
+$$
+
+- Sabemos o espectro de energia exatamente
+- Não possui cáusticas
+
+---
+
+{{< video kerr.mp4 width="700" height="700" >}}
+
+
+## Energia
+
+![Linha preta cheia: resultado exato; linha vermelha tracejada: aproximação semiclássica, linha azul tracejada/pontilhada: aproximação metaplética amortecida; linha amarela pontilhada: resultado clássico.](Texto\Imagens\energias_kerr.png){fig-align="center"}
+
+
+## Calor específico
+
+![Linha preta cheia: resultado exato; linha vermelha tracejada: aproximação semiclássica, linha azul tracejada/pontilhada: aproximação metaplética amortecida; linha amarela pontilhada: resultado clássico.](Texto\Imagens\calores_especificos_kerr.png){fig-align="center"}
+
+## Como calcular as aproximações numericamente?
+
+. . .
+
+A área $\Delta$ pode ser obtida por
+
+$$
+\Delta\left[ \mathbf{x}\left( \mathbf{X}\right),t \right] = \int_0^{t/2} \boldsymbol{\xi}\left(\mathbf{X}, t' \right) \wedge \dot{\mathbf{x}}\left(\mathbf{X}, t' \right) dt'
+$$
+
+Como obter $\Delta$ para tempos complexos?
+
+## Espaço de fase duplo
+
+- $\mathbf{x}$ vira coordenada generalizada
+- $\mathbf{y} = \mathbf{J}\boldsymbol{\xi}$ é o momento associado
+- Hamiltoniana dupla:
+$$\mathbb{H}(\mathbf{x},\mathbf{y}) = H\left( \mathbf{x} - \frac{1}{2}\mathbf{J} \mathbf{y} \right) + H\left( \mathbf{x} + \frac{1}{2}\mathbf{J} \mathbf{y} \right)
+$$
+- Equações de Hamilton:
+
+. . .
+
+$$
+\dot{\mathbf{y}} = -\dfrac{\partial \mathbb{H}}{\partial \mathbf{x}}; \ \ \ \dot{\mathbf{x}} = \dfrac{\partial \mathbb{H}}{\partial \mathbf{y}}
+$$
+
+---
+
+Promovemos as derivadas em relação a $t$ a derivadas em relação a uma variável complexa $z$:
+
+. . .
+
+$$
+\frac{d\mathbf{y}}{dz} = -\dfrac{\partial \mathbb{H}}{\partial \mathbf{x}}; \ \ \ \mathbf{y}(0) = \boldsymbol{0}
+$$
+
+$$
+\frac{d\mathbf{x}}{dz} = \dfrac{\partial \mathbb{H}}{\partial \mathbf{y}}; \ \ \ \mathbf{x}(0) = \mathbf{X}
+$$
+
+. . . 
+
+Como obter essas quantidades em um ponto $z$ qualquer?
+
+---
+
+Introduzimos a curva $\gamma(s)$ e as funções $\tilde{\mathbf{x}}(s) = \mathbf{x}(\gamma(s))$ e $\tilde{\mathbf{y}}(s) = \mathbf{y}(\gamma(s))$
+
+![](Texto\Imagens\plano_complexo.png){fig-align="center"}
+
+---
+
+Essas funções satisfazem
+
+$$
+\dfrac{d \tilde{\mathbf{y}}}{ds} = -w\dfrac{\partial \mathbb{H}}{\partial \mathbf{x}}; \ \ \
+\dfrac{d \tilde{\mathbf{x}}}{ds} = w\dfrac{\partial \mathbb{H}}{\partial \mathbf{y}}
+$$
+
+. . . 
+
+Introduzimos $\tilde{\mathbf{y}}_w = w^* \tilde{\mathbf{y}}$ e
+$$
+\mathbb{H}_{w}\left(\mathbf{x},\mathbf{y}\right) =  \mathbb{H}\left(\mathbf{x},w\mathbf{y}\right) = H\left( \mathbf{x} - \frac{w}{2}\mathbf{J} \mathbf{y} \right) + H\left( \mathbf{x} + \frac{w}{2}\mathbf{J} \mathbf{y} \right)
+$$
+
+. . . 
+
+Recuperemos equações de hamilton:
+
+$$
+\dfrac{d \tilde{\mathbf{y}}_w}{ds} = -\dfrac{\partial \mathbb{H}_{w}}{\partial \mathbf{x}}; \ \ \ 
+\dfrac{d \tilde{\mathbf{x}}}{ds} = \dfrac{\partial\mathbb{H}_{w}}{\partial \mathbf{y}}
+$$
+
+---
+
+$$
+\Delta(z) = \int_\gamma \mathbf{y}(z') \cdot \frac{d\mathbf{x}(z')}{dz} dz'
+$$
+
+. . .
+
+$$
+= w\int_{0}^{|z|/2} ds \ \tilde{ \mathbf{y}}_w(s) \cdot  \dfrac{\partial\mathbb{H}_{w}}{\partial \mathbf{y}}
+$$
+
+## Resumo
+
+. . .
+
+Para os nossos propósitos, $w=-i$, de modo que omitimos o subescrito. Trocamos também $s$ por $\theta$.
+
+<br>
+
+. . .
+
+Sistema definido pela hamiltoniana modificada
+
+$\mathbb{H}(\mathbf{x},\mathbf{y}) = H\left( \mathbf{x} + \dfrac{i}{2}\mathbf{J} \mathbf{y} \right) + H\left( \mathbf{x} - \dfrac{i}{2}\mathbf{J} \mathbf{y} \right)$
+
+---
+
+$\dfrac{d \mathbf{y}}{d\theta} = -\dfrac{\partial\mathbb{H}}{\partial \mathbf{x}}, \ \ \ \mathbf{y}(0) = \boldsymbol{0}$
+
+<br>
+
+. . . 
+
+$\dfrac{d \mathbf{x}}{d\theta} = \dfrac{\partial\mathbb{H}}{\partial \mathbf{y}}, \ \ \ \mathbf{x}(0) = \mathbf{X}$
+
+<br>
+
+. . . 
+
+$\dfrac{d \Delta^E}{d \theta} = \mathbf{y} \cdot  \dfrac{\partial\mathbb{H}}{\partial \mathbf{y}}, \ \ \ \ \ \Delta^E (0) = 0$
+
+<br>
+
+. . . 
+
+(Quase) todos os elementos para o cálculo da aproximação!
+
+# Hamiltonianas padrão
+
+$$
+\hat{H} = \frac{\hat{p}^2}{2m} + V\left( \hat{q} \right)
+$$
+
+. . .
+
+$$
+H(p,q) = \frac{p^2}{2m} + V\left( q \right)
+$$
+
+## Potencial de Morse
+
+Modela a vibração de moléculas diatômicas.
+
+![](Texto\Imagens\plot_morse.png){fig-align="center"}
+
+---
+
+{{< video morse.mp4 width="700" height="700" >}}
+
+---
+
+$$
+E_n = \hbar \omega \left[ \left( n + \frac{1}{2} \right) - \chi \left( n + \frac{1}{2} \right)^2 \right], \ \ \ n = 0,1, \ldots, N
+$$
+
+$$
+\chi \propto \frac{1}{\sqrt{D}}; \ \ \ N =\left \lfloor{\frac{1}{2\chi} - \frac{1}{2}}\right \rfloor
+$$
+
+. . .
+
+| Molécula | $\chi$ | $N$ |
+|----------|-----|------|
+| $H_2$    | $2.76 \times 10^{-2}$ | $17$|
+| $O_2$    | $7.58 \times 10^{-3}$ | $65$|
+| $N_2$    | $6.07 \times 10^{-3}$ | $81$|$|
+
+## {visibility="hidden"}
+
+![$\chi = 0.06; \ \ \ N = 6$](Texto\Imagens\wigner_morse.png){fig-align="center"}
+
+## Cáusticas
+
+![Esquerda: Integrando da função de partição. Direita: Determinante jacobiano.](Texto\Imagens\det_part_1.png){fig-align="center"}
+
+## Cáusticas
+
+![Esquerda: Integrando da função de partição. Direita: Determinante jacobiano.](Texto\Imagens\det_part_2.png){fig-align="center"}
+
+---
+
+![Ação euclidiana (linha azul cheia) e determinante jacobiano (linha vermelha tracejada)](Texto\Imagens\ação_e_determinante.png){fig-align="center"}
+
+---
+
+![Integrando da função de partição corrigido pelo truque.](Texto\Imagens\det_part_3.png){fig-align="center"}
+
+---
+
+![Linha preta cheia: resultado exato; linha vermelha tracejada: aproximação semiclássica, linha azul tracejada/pontilhada: aproximação metaplética amortecida; linha amarela pontilhada: resultado clássico.](Texto\Imagens\energias_morse.png){fig-align="center"}
+
+---
+
+![Linha preta cheia: resultado exato; linha vermelha tracejada: aproximação semiclássica, linha azul tracejada/pontilhada: aproximação metaplética amortecida; linha amarela pontilhada: resultado clássico.](Texto\Imagens\calores_morse.png){fig-align="center"}
+
+# Conclusão
+
+- Desenvolvemos uma aproximação semiclássica para o ensemble canônico
+- Algorítmo para o cálculo das médias termodinâmicas
+- Falta investigar melhor como lidar com as cáusticas
+- Qualidade depende do sistema e dos parâmetros
+- Promissor para sistemas com muitos graus de liberdade
+
+## Fim! Obrigado a todos o presentes!

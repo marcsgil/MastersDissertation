@@ -1,0 +1,274 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem{PhysRev.40.749}
+\abntrefinfo{Wigner}{WIGNER}{1932}
+{WIGNER, E. On the quantum correction for thermodynamic equilibrium.
+\emph{Phys. Rev.}, American Physical Society, v.~40, p. 749--759, Jun 1932.
+Dispon{\'\i}vel em: \url{https://link.aps.org/doi/10.1103/PhysRev.40.749}.}
+
+\bibitem{weyl1927quantenmechanik}
+\abntrefinfo{Weyl}{WEYL}{1927}
+{WEYL, H. Quantenmechanik und gruppentheorie.
+\emph{Zeitschrift f{\"u}r Physik}, Springer, v.~46, n.~1, p. 1--46, 1927.}
+
+\bibitem{GROENEWOLD1946405}
+\abntrefinfo{Groenewold}{GROENEWOLD}{1946}
+{GROENEWOLD, H. On the principles of elementary quantum mechanics.
+\emph{Physica}, v.~12, n.~7, p. 405--460, 1946.
+ISSN 0031-8914.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0031891446800594}.}
+
+\bibitem{moyal1949quantum}
+\abntrefinfo{Moyal}{MOYAL}{1949}
+{MOYAL, J.~E. Quantum mechanics as a statistical theory. In:  CAMBRIDGE
+  UNIVERSITY PRESS. \emph{Mathematical Proceedings of the Cambridge
+  Philosophical Society}. [S.l.], 1949. v.~45, n.~1, p. 99--124.}
+
+\bibitem{curtright2013concise}
+\abntrefinfo{Curtright, Fairlie e Zachos}{CURTRIGHT; FAIRLIE; ZACHOS}{2013}
+{CURTRIGHT, T.~L.; FAIRLIE, D.~B.; ZACHOS, C.~K. \emph{A concise treatise on
+  quantum mechanics in phase space}. [S.l.]: World Scientific Publishing
+  Company, 2013.}
+
+\bibitem{PhysRevA.99.042125}
+\abntrefinfo{Lando et al.}{LANDO et al.}{2019}
+{LANDO, G.~M. et al. Quantum revival patterns from classical phase-space
+  trajectories.
+\emph{Phys. Rev. A}, American Physical Society, v.~99, p. 042125, Apr 2019.
+Dispon{\'\i}vel em: \url{https://link.aps.org/doi/10.1103/PhysRevA.99.042125}.}
+
+\bibitem{josé1998classical}
+\abntrefinfo{Jos{\'e} e Saletan}{JOS{\'E}; SALETAN}{1998}
+{JOS{\'E}, J.; SALETAN, E. \emph{Classical Dynamics: A Contemporary Approach}.
+  Cambridge University Press, 1998.
+ISBN 9780521636360. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=Eql9dRQDgvQC}.}
+
+\bibitem{goldstein2002classical}
+\abntrefinfo{Goldstein, Poole e Safko}{GOLDSTEIN; POOLE; SAFKO}{2002}
+{GOLDSTEIN, H.; POOLE, C.; SAFKO, J. \emph{Classical Mechanics}. Addison
+  Wesley, 2002.
+ISBN 9780201657029. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=tJCuQgAACAAJ}.}
+
+\bibitem{lemos2018analytical}
+\abntrefinfo{Lemos}{LEMOS}{2018}
+{LEMOS, N. \emph{Analytical Mechanics}. Cambridge University Press, 2018.
+ISBN 9781108416580. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=WikFtAEACAAJ}.}
+
+\bibitem{DEALMEIDA1998265}
+\abntrefinfo{{de Almeida}}{{de Almeida}}{1998}
+{{de Almeida}, A.~M. The {W}eyl representation in classical and quantum
+  mechanics.
+\emph{Physics Reports}, v.~295, n.~6, p. 265--342, 1998.
+ISSN 0370-1573.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0370157397000707}.}
+
+\bibitem{lima2016algebra}
+\abntrefinfo{LIMA}{LIMA}{2016}
+{LIMA, E. \emph{Álgebra Linear}. Projeto Euclides, 2016.
+ISBN 9788524404207. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=V\\_Y5zQEACAAJ}.}
+
+\bibitem{OZORIODEALMEIDA2021132951}
+\abntrefinfo{{Ozorio de Almeida}, Ingold e Brodier}{{Ozorio de Almeida};
+  INGOLD; BRODIER}{2021}
+{{Ozorio de Almeida}, A.~M.; INGOLD, G.-L.; BRODIER, O. The quantum canonical
+  ensemble in phase space.
+\emph{Physica D: Nonlinear Phenomena}, v.~424, p. 132951, 2021.
+ISSN 0167-2789.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/S0167278921001093}.}
+
+\bibitem{gustavson1966on}
+\abntrefinfo{Gustavson}{GUSTAVSON}{1966}
+{GUSTAVSON, F. On constructing formal integrals of a hamiltonian system near
+  ail equilibrium point.
+\emph{The Astronomical Journal}, v.~71, p.~670, 1966.}
+
+\bibitem{henon1964applicability}
+\abntrefinfo{H{\'e}non e Heiles}{H{\'E}NON; HEILES}{1964}
+{H{\'E}NON, M.; HEILES, C. The applicability of the third integral of motion:
+  some numerical experiments.
+\emph{The astronomical journal}, v.~69, p.~73, 1964.}
+
+\bibitem{arnol2013dynamical}
+\abntrefinfo{Arnol'd et al.}{ARNOL'D et al.}{2013}
+{ARNOL'D, V. et al. \emph{Dynamical Systems IV: Symplectic Geometry and its
+  Applications}. Springer Berlin Heidelberg, 2013.  (Encyclopaedia of
+  Mathematical Sciences).
+ISBN 9783662067932. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=cgb8CAAAQBAJ}.}
+
+\bibitem{de1990hamiltonian}
+\abntrefinfo{Almeida}{ALMEIDA}{1990}
+{ALMEIDA, A. de. \emph{Hamiltonian Systems: Chaos and Quantization}. Cambridge
+  University Press, 1990.  (Cambridge Monographs on Mathematical Physics).
+ISBN 9780521386708. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=nNeNSEJUEHUC}.}
+
+\bibitem{cohen2019quantum}
+\abntrefinfo{Cohen-Tannoudji, Diu e Lalo{\"e}}{COHEN-TANNOUDJI; DIU;
+  LALO{\"E}}{2019}
+{COHEN-TANNOUDJI, C.; DIU, B.; LALO{\"E}, F. \emph{Quantum Mechanics, Volume 1:
+  Basic Concepts, Tools, and Applications}. Wiley, 2019.
+ISBN 9783527345533. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=tVI\\_EAAAQBAJ}.}
+
+\bibitem{littlejohn1986semiclassical}
+\abntrefinfo{Littlejohn}{LITTLEJOHN}{1986}
+{LITTLEJOHN, R.~G. The semiclassical evolution of wave packets.
+\emph{Physics reports}, Elsevier, v.~138, n.~4-5, p. 193--291, 1986.}
+
+\bibitem{de2014metaplectic}
+\abntrefinfo{Almeida e Ingold}{ALMEIDA; INGOLD}{2014}
+{ALMEIDA, A. M.~O. D.; INGOLD, G.-L. Metaplectic sheets and caustic traversals
+  in the {W}eyl representation.
+\emph{Journal of Physics A: Mathematical and Theoretical}, IOP Publishing,
+  v.~47, n.~10, p. 105303, 2014.}
+
+\bibitem{ingold2002path}
+\abntrefinfo{Ingold}{INGOLD}{2002}
+{INGOLD, G.-L. Path integrals and their application to dissipative quantum
+  systems. In:  \emph{Coherent Evolution in Noisy Environments}. [S.l.]:
+  Springer, 2002. p. 1--53.}
+
+\bibitem{greiner2013field}
+\abntrefinfo{Greiner, Bromley e Reinhardt}{GREINER; BROMLEY; REINHARDT}{2013}
+{GREINER, W.; BROMLEY, D.; REINHARDT, J. \emph{Field Quantization}. Springer
+  Berlin Heidelberg, 2013.
+ISBN 9783642614859. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=C-DVBAAAQBAJ}.}
+
+\bibitem{balian2006microphysics}
+\abntrefinfo{Balian, Haar e Gregg}{BALIAN; HAAR; GREGG}{2006}
+{BALIAN, R.; HAAR, D.; GREGG, J. \emph{From Microphysics to Macrophysics:
+  Methods and Applications of Statistical Physics}. Springer Berlin Heidelberg,
+  2006.  (Theoretical and Mathematical Physics, v. 1).
+ISBN 9783540454694. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=xsQzLxiatyMC}.}
+
+\bibitem{haroche2006exploring}
+\abntrefinfo{Haroche e Raimond}{HAROCHE; RAIMOND}{2006}
+{HAROCHE, S.; RAIMOND, J. \emph{Exploring the Quantum: Atoms, Cavities, and
+  Photons}. OUP Oxford, 2006.  (Oxford Graduate Texts).
+ISBN 9780198509141. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=ynwSDAAAQBAJ}.}
+
+\bibitem{PhysRevLett.57.13}
+\abntrefinfo{Yurke e Stoler}{YURKE; STOLER}{1986}
+{YURKE, B.; STOLER, D. Generating quantum mechanical superpositions of
+  macroscopically distinguishable states via amplitude dispersion.
+\emph{Phys. Rev. Lett.}, American Physical Society, v.~57, p. 13--16, Jul 1986.
+Dispon{\'\i}vel em: \url{https://link.aps.org/doi/10.1103/PhysRevLett.57.13}.}
+
+\bibitem{AVERBUKH1989449}
+\abntrefinfo{Averbukh e Perelman}{AVERBUKH; PERELMAN}{1989}
+{AVERBUKH, I.; PERELMAN, N. Fractional revivals: Universality in the long-term
+  evolution of quantum wave packets beyond the correspondence principle
+  dynamics.
+\emph{Physics Letters A}, v.~139, n.~9, p. 449--453, 1989.
+ISSN 0375-9601.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/0375960189909432}.}
+
+\bibitem{kirchmair2013observation}
+\abntrefinfo{Kirchmair et al.}{KIRCHMAIR et al.}{2013}
+{KIRCHMAIR, G. et al. Observation of quantum state collapse and revival due to
+  the single-photon {K}err effect.
+\emph{Nature}, Nature Publishing Group, v.~495, n.~7440, p. 205--209, 2013.}
+
+\bibitem{callen1991thermodynamics}
+\abntrefinfo{Callen}{CALLEN}{1991}
+{CALLEN, H. \emph{Thermodynamics and an Introduction to Thermostatistics}.
+  Wiley, 1991.
+ISBN 9780471862567. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=m\\_39DwAAQBAJ}.}
+
+\bibitem{riganelli2001rovibrational}
+\abntrefinfo{Riganelli, Prudente e Varandas}{RIGANELLI; PRUDENTE;
+  VARANDAS}{2001}
+{RIGANELLI, A.; PRUDENTE, F.~V.; VARANDAS, A.~J. On the rovibrational partition
+  function of molecular hydrogen at high temperatures.
+\emph{The Journal of Physical Chemistry A}, ACS Publications, v.~105, n.~41, p.
+  9518--9521, 2001.}
+
+\bibitem{berry1977semi}
+\abntrefinfo{Berry}{BERRY}{1977}
+{BERRY, M.~V. Semi-classical mechanics in phase space: a study of wigner’s
+  function.
+\emph{Philosophical Transactions of the Royal Society of London. Series A,
+  Mathematical and Physical Sciences}, The Royal Society London, v.~287,
+  n.~1343, p. 237--271, 1977.}
+
+\bibitem{morse1929diatomic}
+\abntrefinfo{Morse}{MORSE}{1929}
+{MORSE, P.~M. Diatomic molecules according to the wave mechanics. ii.
+  vibrational levels.
+\emph{Physical review}, APS, v.~34, n.~1, p.~57, 1929.}
+
+\bibitem{haynes2016crc}
+\abntrefinfo{Haynes}{HAYNES}{2016}
+{HAYNES, W. \emph{CRC Handbook of Chemistry and Physics}. CRC Press, 2016.
+ISBN 9781498754293. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=VVezDAAAQBAJ}.}
+
+\bibitem{dahl1988morse}
+\abntrefinfo{Dahl e Springborg}{DAHL; SPRINGBORG}{1988}
+{DAHL, J.~P.; SPRINGBORG, M. The {M}orse oscillator in position space, momentum
+  space, and phase space.
+\emph{The Journal of chemical physics}, American Institute of Physics, v.~88,
+  n.~7, p. 4535--4547, 1988.}
+
+\bibitem{gradshteyn2014table}
+\abntrefinfo{Gradshteyn e Ryzhik}{GRADSHTEYN; RYZHIK}{2014}
+{GRADSHTEYN, I.~S.; RYZHIK, I.~M. \emph{Table of integrals, series, and
+  products}. [S.l.]: Academic press, 2014.}
+
+\bibitem{Julia-2017}
+\abntrefinfo{Bezanson et al.}{BEZANSON et al.}{2017}
+{BEZANSON, J. et al. Julia: A fresh approach to numerical computing.
+\emph{SIAM {R}eview}, SIAM, v.~59, n.~1, p. 65--98, 2017.
+Dispon{\'\i}vel em: \url{https://epubs.siam.org/doi/10.1137/141000671}.}
+
+\bibitem{https://doi.org/10.48550/arxiv.2204.08775}
+\abntrefinfo{Christ et al.}{CHRIST et al.}{2022}
+{CHRIST, S. et al. \emph{Plots.jl -- a user extendable plotting API for the
+  {J}ulia programming language}. arXiv, 2022.
+Dispon{\'\i}vel em: \url{https://arxiv.org/abs/2204.08775}.}
+
+\bibitem{DanischKrumbiegel2021}
+\abntrefinfo{Danisch e Krumbiegel}{DANISCH; KRUMBIEGEL}{2021}
+{DANISCH, S.; KRUMBIEGEL, J. Makie.jl: Flexible high-performance data
+  visualization for julia.
+\emph{Journal of Open Source Software}, The Open Journal, v.~6, n.~65, p.~3349,
+  2021.
+Dispon{\'\i}vel em: \url{https://doi.org/10.21105/joss.03349}.}
+
+\bibitem{DifferentialEquations.jl-2017}
+\abntrefinfo{Rackauckas e Nie}{RACKAUCKAS; NIE}{2017}
+{RACKAUCKAS, C.; NIE, Q. Differentialequations.jl – a performant and
+  feature-rich ecosystem for solving differential equations in {J}ulia.
+\emph{The Journal of Open Research Software}, v.~5, n.~1, 2017.
+Exported from https://app.dimensions.ai on 2019/05/05.
+Dispon{\'\i}vel em:
+  \url{https://app.dimensions.ai/details/publication/pub.1085583166 and
+  http://openresearchsoftware.metajnl.com/articles/10.5334/jors.151/galley/245/download/}.}
+
+\bibitem{BOGACKI1989321}
+\abntrefinfo{Bogacki e Shampine}{BOGACKI; SHAMPINE}{1989}
+{BOGACKI, P.; SHAMPINE, L. A 3(2) pair of {R}unge - {K}utta formulas.
+\emph{Applied Mathematics Letters}, v.~2, n.~4, p. 321--325, 1989.
+ISSN 0893-9659.
+Dispon{\'\i}vel em:
+  \url{https://www.sciencedirect.com/science/article/pii/0893965989900797}.}
+
+\end{thebibliography}

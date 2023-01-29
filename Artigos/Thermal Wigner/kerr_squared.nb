@@ -1,0 +1,271 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8463,        261]
+NotebookOptionsPosition[      7918,        243]
+NotebookOutlinePosition[      8291,        259]
+CellTagsIndexPosition[      8248,        256]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", " ", "NCAlgebra`"}]], "Input",
+ CellLabel->"In[6]:=",ExpressionUUID->"077fcca9-9af7-459e-bee6-15fef4362d90"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NCExpand", "[", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"\[Omega]", 
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{
+         SuperscriptBox["p", "2"], "+", 
+         SuperscriptBox["q", "2"]}], "2"], ")"}]}], "+", 
+     RowBox[{
+      FractionBox[
+       SuperscriptBox["\[Omega]", "2"], "\[Epsilon]"], 
+      RowBox[{
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{
+          SuperscriptBox["p", "2"], "+", 
+          SuperscriptBox["q", "2"]}], "2"], ")"}], "^", "2"}]}]}], ")"}], "^",
+    "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8454643699784374`*^9, 3.8454645100780787`*^9}, {
+  3.845464541154975*^9, 3.845464546135157*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"dc7dcdd9-6042-44a2-8d98-c9bcb7ec7d72"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   FractionBox["1", "4"], " ", 
+   SuperscriptBox["\[Omega]", "2"], " ", 
+   RowBox[{"p", "**", "p", "**", "p", "**", "p"}]}], "+", 
+  RowBox[{
+   FractionBox["1", "4"], " ", 
+   SuperscriptBox["\[Omega]", "2"], " ", 
+   RowBox[{"p", "**", "p", "**", "q", "**", "q"}]}], "+", 
+  RowBox[{
+   FractionBox["1", "4"], " ", 
+   SuperscriptBox["\[Omega]", "2"], " ", 
+   RowBox[{"q", "**", "q", "**", "p", "**", "p"}]}], "+", 
+  RowBox[{
+   FractionBox["1", "4"], " ", 
+   SuperscriptBox["\[Omega]", "2"], " ", 
+   RowBox[{"q", "**", "q", "**", "q", "**", "q"}]}], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"p", "**", "p", "**", "p", "**", "p", "**", "p", "**", "p"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"p", "**", "p", "**", "p", "**", "p", "**", "q", "**", "q"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"p", "**", "p", "**", "q", "**", "q", "**", "p", "**", "p"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"p", "**", "p", "**", "q", "**", "q", "**", "q", "**", "q"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"q", "**", "q", "**", "p", "**", "p", "**", "p", "**", "p"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"q", "**", "q", "**", "p", "**", "p", "**", "q", "**", "q"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"q", "**", "q", "**", "q", "**", "q", "**", "p", "**", "p"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "3"], " ", 
+    RowBox[{"q", "**", "q", "**", "q", "**", "q", "**", "q", "**", "q"}]}], 
+   RowBox[{"4", " ", "\[Epsilon]"}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "p", "**", "p", "**", "p", "**", "p", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "p", "**", "p", "**", "p", "**", "p", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "p", "**", "p", "**", "q", "**", "q", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "p", "**", "p", "**", "q", "**", "q", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "q", "**", "q", "**", "p", "**", "p", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "q", "**", "q", "**", "p", "**", "p", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "q", "**", "q", "**", "q", "**", "q", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "p", "**", "p", "**", "q", "**", "q", "**", "q", "**", "q", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "p", "**", "p", "**", "p", "**", "p", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "p", "**", "p", "**", "p", "**", "p", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "p", "**", "p", "**", "q", "**", "q", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "p", "**", "p", "**", "q", "**", "q", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "q", "**", "q", "**", "p", "**", "p", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "q", "**", "q", "**", "p", "**", "p", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "q", "**", "q", "**", "q", "**", "q", "**", "p", "**",
+      "p"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]], "+", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[Omega]", "4"], " ", 
+    RowBox[{
+    "q", "**", "q", "**", "q", "**", "q", "**", "q", "**", "q", "**", "q", "**",
+      "q"}]}], 
+   RowBox[{"16", " ", 
+    SuperscriptBox["\[Epsilon]", "2"]}]]}]], "Output",
+ CellChangeTimes->{{3.8454643707381163`*^9, 3.8454644084254813`*^9}, {
+   3.8454644414403324`*^9, 3.8454644558882976`*^9}, 3.8454645109785233`*^9, 
+   3.8454645465849113`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"96eb1c8f-2692-4426-809e-ae205407f8b0"]
+}, Open  ]]
+},
+WindowSize->{1536, 821},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+Magnification:>1.7 Inherited,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 137, 2, 49, "Input",ExpressionUUID->"077fcca9-9af7-459e-bee6-15fef4362d90"],
+Cell[CellGroupData[{
+Cell[720, 26, 774, 23, 88, "Input",ExpressionUUID->"dc7dcdd9-6042-44a2-8d98-c9bcb7ec7d72"],
+Cell[1497, 51, 6405, 189, 527, "Output",ExpressionUUID->"96eb1c8f-2692-4426-809e-ae205407f8b0"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
